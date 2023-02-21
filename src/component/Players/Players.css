@@ -1,0 +1,52 @@
+.container {
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 0.5rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center center;
+  /* margin: 0.2rem; */
+  height: 420px;
+  width: 300px;
+  background-color: white;
+  /* border: 1px solid red; */
+  border-radius: 10px;
+}
+
+.div-img {
+  width: 300;
+  height: 300px;
+  /* border-radius: 10px; */
+}
+.img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.img:hover {
+  cursor: pointer;
+  transform: scale(0.9);
+  border-radius: 0;
+}
+.name {
+  /* border: 2px solid red; */
+  margin: 0.2rem auto;
+
+  font-size: 1rem;
+}
+.sta {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.veri {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+}
