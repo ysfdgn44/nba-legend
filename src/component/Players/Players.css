@@ -1,17 +1,21 @@
 .container {
+  margin: 1rem auto;
+  width: 90%;
+  border-radius: 10px;
   padding-top: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
   gap: 0.5rem;
+  background-image: url("https://www.nbagunlukleri.com/wp-content/uploads/2017/03/nba-loog.jpg");
 }
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center center;
   /* margin: 0.2rem; */
-  height: 420px;
+  height: 320px;
   width: 300px;
   background-color: white;
   /* border: 1px solid red; */
@@ -32,6 +36,7 @@
   cursor: pointer;
   transform: scale(0.9);
   border-radius: 0;
+  box-shadow: 5px 0px 3px 5px rgba(0, 0, 0, 0.5);
 }
 .name {
   /* border: 2px solid red; */
@@ -39,14 +44,26 @@
 
   font-size: 1rem;
 }
-.sta {
-  font-size: 1rem;
+
+.sta-div {
+  height: 300px;
+  width: 300px;
   display: flex;
-  flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
-.veri {
-  font-size: 1rem;
-  display: flex;
-  flex-direction: row;
+
+.list {
+  list-style: none;
+  font-size: 1.5rem;
+}
+.search {
+  text-align: center;
+}
+.search input {
+  width: 15rem;
+  height: 1.5rem;
+  /* border: none; */
+  border-radius: 5px;
+  margin-top: 1rem;
 }

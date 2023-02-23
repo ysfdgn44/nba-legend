@@ -5,7 +5,6 @@ const Header = () => {
     <div className="header">
       <img src={logo} alt="" />
       <h1>NBA Legends</h1>
-      <input type="search" name="search" id="search" />
     </div>
   );
 };
